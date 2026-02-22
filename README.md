@@ -26,7 +26,7 @@ A GUI app using SadTalker in Python, hosted locally.
 <pre><code>./download_models.sh</code></pre>
 <pre><code>cd ..</code></pre>
 
-<h2>4. Place your portrait in the same directory as app.py</h2>
+<h2>4. Place your portrait called bust_photo.png in the same directory as app.py</h2>
 
 # 5. Run
 <pre><code>python app.py</code></pre>
