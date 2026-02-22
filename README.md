@@ -3,7 +3,7 @@
 <br><b>🇪🇺🇪🇺🇪🇺Made in Europe🇪🇺🇪🇺🇪🇺</b>
 # StreamTalker
 <b>A GUI app using SadTalker in Python, hosted locally. </b>
-<br>User prompts llamacpp, then the reply is returned with a head/bust animation of the selected image (using TTS and SadTalker).
+<br>User prompts llamacpp, then the reply is returned with a head/bust animation of the selected image (using TTS and SadTalker). 
 # Instructions
 🎥🎥🎥<b>Video can be found here: </a></b>🎥🎥🎥
 <h2><b>Required:</b></h2>
@@ -33,6 +33,11 @@
 # 5. Run
 <pre><code>python app.py</code></pre>
 </b>
+
+# Checklist
+* continuous playback mode (one clip plays while the other generates)
+* naming clips with _X at the end of their name (X will be the number of the clip), then using "Back" and "Next" to navigate them
+* GUI expansion
 
 # Supported OSes
 <b>Supports Linux, Windows requires different commands and a small rewrite of the app. However, it is not worth it, as Windows is slow and limited in terms of local AI.</b>
