@@ -2,14 +2,37 @@
 <br>![GitHub All Releases](https://img.shields.io/github/downloads/C0m3b4ck/StreamTalker/total)
 <br><b>🇪🇺🇪🇺🇪🇺Made in Europe🇪🇺🇪🇺🇪🇺
 # StreamTalker
-wxWidgets 2.8.8 compiled for all versions from Windows 95 to Windows 11.
-I made this because I plan to use wxWidgets in future projects.
+A GUI app using SadTalker in Python, hosted locally. 
 # Instructions
 🎥🎥🎥<b>Video can be found here: </a></b>🎥🎥🎥
 <h2><b>Required:</b></h2>
+<pre><code>requirements.txt for app.py</code></pre>
+<pre><code>requirements.txt for SadTalker</code></pre>
+<pre><code>./download_models.sh from SadTalker</code></pre>
+
+<h2>1. Main project - venv</h2>
+<pre><code>python -m venv venv</code></pre>
+<pre><code>source venv/bin/activate</code></pre>
+<pre><code>pip install --upgrade pip</code></pre>
+<pre><code>pip install -r requirements.txt</code></pre>
+
+<h2>2. Ollama model</h2>
+<pre><code>ollama pull llama3.2:3b</code></pre>
+
+<h2>3. SadTalker repo</h2>
+<pre><code>git clone https://github.com/OpenTalker/SadTalker.git</code></pre>
+<pre><code>cd SadTalker</code></pre>
+<pre><code>pip install -r requirements.txt</code></pre>
+<pre><code>./download_models.sh</code></pre>
+<pre><code>cd ..</code></pre>
+
+<h2>4. Place your portrait in the same directory as app.py</h2>
+
+# 5. Run
+<pre><code>python app.py</code></pre>
 
 
 # Supported OSes
-<b>Supports Linux, Windows requires different commands and a small rewrite of the app. However, it is not worth it 
+<b>Supports Linux, Windows requires different commands and a small rewrite of the app. However, it is not worth it, as Windows is slow and limited in terms of local AI.</b>
 # Author
-Original link here: <a href=https://github.com/wxWidgets/wxWidgets/releases/tag/v2.8.8>https://github.com/wxWidgets/wxWidgets/releases/tag/v2.8.8</a>
+Started by C0m3b4ck on February 20th, 2026
